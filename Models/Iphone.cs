@@ -7,7 +7,8 @@ namespace DesafioPOO.Models
     {
         // TODO: Sobrescrever o método "InstalarAplicativo"
         //R:    Realizei a sobrescrita do método InstalarAplicativo.
-        public Iphone(int numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria)
+        public Iphone(string numero, string modelo, string imei, int memoria) :
+        base(numero, modelo, imei, memoria)
         {
 
         }
