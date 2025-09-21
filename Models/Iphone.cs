@@ -1,8 +1,8 @@
 namespace DesafioPOO.Models
 {
     // TODO: Herdar da classe "Smartphone"
-    //R:    Realizei a herança da classe Smartphone e implementei o método abstrato 
-    //      InstalarAplicativo
+    //R:    Realizei a herança da classe Smartphone na classe Iphone e implementei o método 
+    //      abstrato InstalarAplicativo.
     public class Iphone : Smartphone
     {
         // TODO: Sobrescrever o método "InstalarAplicativo"
